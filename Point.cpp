@@ -1,11 +1,9 @@
 //
 // Created by bhuwan sapkota on 2/3/16.
-//
-//#include <iostream>
+
 #include <cmath>
 #include "Point.h"
 
-//using namespace std;
 
 // implementing constructors
 
@@ -42,6 +40,9 @@ double Point::getZ() const { return z; }
 double Point::distanceTo(const Point &object) const
 {
     double distance;
+
+    // distance = √((x2-x1)(y2-y1)(z2-z1)
+
     distance = sqrt((( object.getX()-x)* ( object.getX()-x))
                     +(( object.getY()-y)* ( object.getY()-y))
                     +( object.getZ()-z)* ( object.getZ()-z));
