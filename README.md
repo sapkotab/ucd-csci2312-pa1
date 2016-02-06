@@ -45,7 +45,7 @@ Point myOtherPoint(5, 3); // Calls two-argument constructor Point::Point(double,
 
 ### Your Task
 
-1.  Fork the [Github repository for CSCI 2312 PA1](https://github.com/ivogeorg/ucd-csci2312-pa1). This becomes your _remote_ repository, against which you will work. Then clone it to your local development environment (e.g. laptop). This becomes your _local_ repository against which you will develop. You will find the <tt>Point.h</tt> file for the 2D Point class, along with a test suite and a driver file <tt>main.cpp</tt>.
+1.  Fork the [Github repository for CSCI 2312 PA1](https://github.com/ivogeorg/ucd-csci2312-pa1). This becomes your _remote_ repository, against which you will work. Then clone it to your local development environment (e.g. laptop). This becomes your _local_ repository against which you will develop. You will find the <tt>Point.h</tt> and <tt>Point.cpp</tt> files for the 2D Point class, along with a test suite and a driver file <tt>main.cpp</tt>.
 
 2.  Change the <tt>Point</tt> class to represent points in three (3) dimensions. Make sure to update the comments to match this change. Implement the class in a source file <tt>Point.cpp</tt>.
 
@@ -140,7 +140,7 @@ add_executable(ucd_csci2312_pa1 ${SOURCE_FILES})
 
 ### Grading
 
-An autograding script will test your class on a variety of inputs and assign a grade based on the number of passed tests. (E.g. if your code passes 3 out of 6 test cases, your correctness score will be 50%). The test suite for PA1 has __56__ tests.
+An autograding script will test your class on a variety of inputs and assign a grade based on the number of correct outputs. (E.g. if you get 3 out of 6 test cases correct, your correctness score will be 50%). The test suite for PA1 has __56__ tests.
 
 * * *
 
